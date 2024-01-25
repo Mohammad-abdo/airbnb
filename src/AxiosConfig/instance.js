@@ -1,6 +1,6 @@
 import axios from "axios";
 import Cookies from "js-cookie";
-const instance = axios.create({ baseURL: "http://localhost:3000" });
+const instance = axios.create({ baseURL: "https://airbnb-app.cyclic.app/" });
 
 instance.interceptors.request.use(
   (config) => {
